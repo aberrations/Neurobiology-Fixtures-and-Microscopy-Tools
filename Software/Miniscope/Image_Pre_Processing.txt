@@ -1,0 +1,14 @@
+date = "Y:\\Steve\\V1 PV ErbB4 Ket\\V1 PV ErbB4 Ket Reversal\\4_17_2018_baseket"
+dataset = "m2_base"
+location = date + dataset+"\\"
+for (i=1; i<10; i++) {
+	open(location + "msCam" + i + ".avi");
+	}
+run("Concatenate...", "all_open title=Concatenated_Stacks");
+saveAs("Tiff", location + dataset +"_Concatenated_Stacks.tif");
+run("Reduce...", "reduction=2");
+run("Resize ", "sizex=376.0 sizey=240.0 method=Least-Squares interpolation=Cubic unitpixelx=true unitpixely=true");
+saveAs("Tiff", location + dataset +"_Concatenated_Stacks_Reduced.tif");
+run("Z Project...", "projection=[Max Intensity]");
+saveAs("MAX_"+dataset+"_Concatenated_Stacks_Reduced.tif")
+close("*");
