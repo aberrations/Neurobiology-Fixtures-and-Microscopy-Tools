@@ -3,14 +3,14 @@ void setup() {
 }
 
 void loop() {
-  int stim = random(1,80);
-  digitalWrite(2, HIGH);   // turn the LED strip on 
-  delay(stim);                       // wait for a second
-  digitalWrite(2, LOW);    // turn the LED strip off
-  delay(stim);                       // wait for a second
-  // turn off tone function for pin 7:
-  noTone(7);
-  // play a 10kHz tone on pin 7 for 1 ms:
-  tone(7, 10000, 1);
+  int stim = random(1,80); // stimulation frequency 
+  
+  digitalWrite(2, HIGH);   // turns the LED strip on at stimulation frequency
   delay(stim);
+  digitalWrite(2, LOW);
+  delay(stim);
+  
+  noTone(7);    // turn the tone on at stimulation frequency
+  tone(7, 10000, 1); // 10kHz tone on pin 7 for 1 ms:
+  delay(stim); 
 }
