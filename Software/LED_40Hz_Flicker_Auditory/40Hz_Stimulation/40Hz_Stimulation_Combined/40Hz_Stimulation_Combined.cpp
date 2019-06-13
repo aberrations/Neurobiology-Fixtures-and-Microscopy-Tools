@@ -18,6 +18,8 @@ void loop() {
     continue
   else
   {
+    digitalWrite(2, LOW)
+    digitalWrite(7,0)
     break
   }
 }
