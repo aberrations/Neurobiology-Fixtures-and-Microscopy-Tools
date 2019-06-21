@@ -1,4 +1,6 @@
-# Systems-Biology-Toolbox
+# Systems Biology Toolbox
+
+Simple devices and software to facilitate microscopy, electrophysiology, and microbiology techniques for systems biology research. Easy to fabricate and use with low-cost 3D Printers.
 
 "Mechanical" includes devices to facilitate two-photon and light-sheet micrscopy of both in-vivo specimens and ex-vivo cleared tissues, devices to faciltate behavioral experiments on mice, a modified version of the mini-scope camera to record neural dynamics in awake freely moving mice from the Aharoni lab at UCLA, and a new set of electrophysiology sample holders for microscope rigs.
 
