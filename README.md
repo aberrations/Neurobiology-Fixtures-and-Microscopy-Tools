@@ -6,4 +6,4 @@ Simple devices and software to facilitate microscopy, electrophysiology, and mic
 
 "Software" includes ImageJ Macro and Python Scripts to automate video processing for the mini-scope camera produced images, and a variety of softwares to control flicker and sound stimulation systems.
 
-The goal of these projects is to simplify systems biology research. All use is covered by the MIT License, which can be read in this repository. Please cite this repository and it's author, Yonathan Aberra, if you are using this in published research. For questions, feel free to comment here or reach out to me at my email address. I hope this is able to help in your various research projects!
+The goal of these projects is to simplify systems biology research. All use is covered by the MIT License, which can be read in this repository. Please cite this repository if you are using this in published research. For questions, feel free to comment here or reach out to me at my email address. I hope this is able to help in your various research projects!
